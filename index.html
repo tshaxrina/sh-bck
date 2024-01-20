@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+      align-items: center;
+      text-align: center;
+      display: block;
+      justify-content: center;
+      
+    }
+    .error {
+        border-color: red;
+    }
+    input {
+        margin: 5px;
+        width: 408px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #000;
+background: #FFF;
+color: #000;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 0px 15px;
+    }
+    button {
+        margin: 5px;
+    }
+    .next {
+        width: 438px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #0047FF;
+color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-width: 0px;
+    }
+    .sign {
+        color: #0047FF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-width: 0px;
+background-color: #fff;
+    }
+    h1 {
+        color: #000;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+</style>
+<body>
+    <form>
+        <h1>Регистрация</h1>
+        <input type="email" placeholder="Почта" class="email" id="email" name="email"> <br>
+        <input type="text" placeholder="Имя" class="name" id="name" name="name"><br>
+        <input type="text" placeholder="Фамилия" class="surname" id="surname" name="surname"> <br>
+        <input type="password" placeholder="Пароль" class="password" id="password" name="password"> <br>
+        <a href="" class="new"><button class="next">Продолжить</button> </a><br>
+        <button class="sign">Войти на аккаунт</button> <br>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
